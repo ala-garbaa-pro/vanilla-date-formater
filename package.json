@@ -1,0 +1,19 @@
+{
+  "name": "vanilla-date-formater",
+  "version": "1.0.0",
+  "description": "Lightweight Date Formatting Solution",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "author": "Ala GARBAA",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}
